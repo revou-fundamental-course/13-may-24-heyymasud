@@ -25,7 +25,6 @@ function hitungLuasSegitiga(alas, tinggi) {
     return (alas * tinggi) / 2;
 }
 
-function hitungKelilingSegitiga(a, b, c) {
-    const s = (a + b + c) / 2;
-    return Math.sqrt(s * (s - a) * (s - b) * (s - c));
+function hitungKelilingSegitiga(sisiA, sisiB, sisiC) {
+    return (sisiA + sisiB + sisiC);
 }
