@@ -17,7 +17,15 @@ document.addEventListener("DOMContentLoaded", function() {
         const sisiB = Number(document.getElementById("sisi-segitiga2").value);
         const sisiC = Number(document.getElementById("sisi-segitiga3").value);
         const hasil = hitungKelilingSegitiga(sisiA, sisiB, sisiC);
-        document.getElementById("hasil-segitigaKeliling").innerHTML = `<p>K = S1 + S2 + S3</p><p>K = ${sisiA} + ${sisiB} + ${sisiC}</p><p>L = ${hasil}</p>`;
+        document.getElementById("hasil-segitigaKeliling").innerHTML = `<p>K = S1 + S2 + S3</p><p>K = ${sisiA} + ${sisiB} + ${sisiC}</p><p>K = ${hasil}</p>`;
+    });
+
+    formSegitigaLuas.addEventListener("reset", function() {
+        document.getElementById("hasil-segitigaLuas").innerHTML = "";
+    });
+
+    formSegitigaKeliling.addEventListener("reset", function() {
+        document.getElementById("hasil-segitigaKeliling").innerHTML = "";
     });
 });
 
