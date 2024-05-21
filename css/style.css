@@ -65,7 +65,7 @@ a#jajar-genjang-sect {
     border-radius: 10px;
 }
 
-#luas-segitiga {
+#luas-segitiga, .section-segitiga {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,14 +73,7 @@ a#jajar-genjang-sect {
     width: 100%;
 }
 
-#keliling-segitiga {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#luas-segitiga header {
+#luas-segitiga header, .section-segitiga header {
     background-color: brown;
     width: 100%;
     border-radius: 10px 10px 0 0;
@@ -88,16 +81,16 @@ a#jajar-genjang-sect {
     color: #ffffff;
 }
 
-#img-segitiga {
+.img-segitiga {
     padding-top: 50px;
 }
 
-#intro-luas {
+#intro-luas, .intro {
     padding: 30px 5%;
     width: 100%;
 }
 
-#intro-luas code {
+.intro code {
     text-align: center;
     display: inline-block;
     width: 100%;
@@ -107,4 +100,75 @@ a#jajar-genjang-sect {
     margin: 20px 0;
 }
 
+.form-segitigaHitung {
+    text-align: left;
+    width: 90%;
+    border: 1px solid brown;
+    border-radius: 20px;
+    padding: 3%;
+    margin-bottom: 50px;
+}
 
+.form-segitigaHitung h2 {
+    text-align: center;
+}
+
+.form-segitigaHitung .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid brown;
+    margin: 10px 0;
+    background-color: #f5e7e7;
+    font-size: 1.1rem;
+}
+.form-segitigaHitung .form-group input:hover {
+    background-color: rgba(165, 42, 42, 0.184);
+}
+.form-segitigaHitung .form-group input:hover {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button[type="submit"] {
+    background-color: brown;
+    color: white;
+    padding: 15px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+button[type="reset"] {
+    background-color: #f5deb3;
+    color: white;
+    padding: 15px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: black;
+}
+button[type="submit"]:hover {
+    background-color: rgb(145, 37, 37);
+    border: 2px solid black;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button[type="reset"]:hover {
+    background-color: #dcbf8b;
+    border: 2px solid black;
+    transition: background-color 0.3s ease-in-out;
+}

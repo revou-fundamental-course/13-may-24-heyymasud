@@ -24,12 +24,12 @@
     </header>
     <main>
         <article id="segitiga">
-            <section id="luas-segitiga">
+            <section id="luas-segitiga" class="section-segitiga">
                 <header>
                     <h1>Luas Segitiga</h1>
                 </header>
-                <img id="img-segitiga" src="img/segitigaHitung.png">
-                <section id="intro-luas">
+                <img class="img-segitiga" src="img/segitigaHitung.png">
+                <section id="intro-luas" class="intro">
                     <p>Rumus Luas Segitiga yaitu : </p>
                     <code>L = 1/2 x a x t</code>
                     <p>Dimana :</p>
@@ -40,29 +40,32 @@
                     </ul>
                 </section>
             </section>
-            <form id="form-segitigaLuas">
+            <form id="form-segitigaLuas" class="form-segitigaHitung">
                 <h2>Hitung Luas Segitiga</h2>
                 <div class="form-group">
-                    <label for="alas-segitiga">Alas</label>
-                    <input type="number" id="alas-segitiga" required>
+                    <label for="alas-segitiga">Alas (a):</label>
+                    <input type="number" id="alas-segitiga" placeholder="masukkan alas" required>
                 </div>
                 <div class="form-group">
-                    <label for="tinggi-segitiga">Tinggi</label>
-                    <input type="number" id="tinggi-segitiga" required>
+                    <label for="tinggi-segitiga">Tinggi (t):</label>
+                    <input type="number" id="tinggi-segitiga" placeholder="masukkan tinggi" required>
                 </div>
                 <div class="form-group">
                     <p></p>
                 </div>
+                <div class="button-group">
                 <button type="submit">Hitung</button>
                 <button type="reset">Reset</button>
+                </div>
             </form>
             <p id="hasil-segitigaLuas"></p>
             </section>
-            <section id="keliling-segitiga">
+            <section id="keliling-segitiga" class="section-segitiga">
                 <header>
                     <h1>Keliling Segitiga</h1>
                 </header>
-                <img src="img/segitigaHitung.png">
+                <img class="img-segitiga" src="img/segitigaHitung.png">
+                <section id="intro-keliling" class="intro">
                 <p>Rumus Luas Segitiga yaitu : </p>
                 <code>K = S1 + S2 + S3</code>
                 <p>Dimana :</p>
@@ -72,25 +75,28 @@
                     <li>S2 = Sisi B</li>
                     <li>S3 = Sisi C</li>
                 </ul>
-                <form id="form-segitigaKeliling">
+                </section>
+                <form id="form-segitigaKeliling" class="form-segitigaHitung">
                     <h2>Hitung Keliling Segitiga</h2>
                     <div class="form-group">
-                        <label for="sisi-segitiga1">Sisi A</label>
-                        <input type="number" id="sisi-segitiga1" required>
+                        <label for="sisi-segitiga1">Sisi A:</label>
+                        <input type="number" id="sisi-segitiga1" placeholder="masukkan sisi A" required>
                     </div>
                     <div class="form-group">
-                        <label for="sisi-segitiga2">Sisi B</label>
-                        <input type="number" id="sisi-segitiga2" required>
+                        <label for="sisi-segitiga2">Sisi B:</label>
+                        <input type="number" id="sisi-segitiga2" placeholder="masukkan sisi B" required>
                     </div>
                     <div class="form-group">
-                        <label for="sisi-segitiga3">Sisi C</label>
-                        <input type="number" id="sisi-segitiga3" required>
+                        <label for="sisi-segitiga3">Sisi C:</label>
+                        <input type="number" id="sisi-segitiga3" placeholder="masukkan sisi C" required>
                     </div>
                     <div class="form-group">
                         <p></p>
                     </div>
+                    <div class="button-group">
                     <button type="submit">Hitung</button>
                     <button type="reset">Reset</button>
+                    </div>
                 </form>
                 <p id="hasil-segitigaKeliling"></p>
             </section>
