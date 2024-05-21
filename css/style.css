@@ -12,9 +12,99 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    background-color: antiquewhite;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
 }
 
 header {
     text-align: center;
 }
+
+#head-kalkulator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+a#segitiga-sect {
+    display: inline-block;
+    background-color: brown;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80vw;
+}
+a#jajar-genjang-sect {
+    display: inline-block;
+    background-color: none;
+    color: brown;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80vw;
+}
+
+#segitiga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    width: 80vw;
+    background-color: #ffffff; 
+    border-radius: 10px;
+}
+
+#luas-segitiga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#keliling-segitiga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#luas-segitiga header {
+    background-color: brown;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    padding: 30px;
+    color: #ffffff;
+}
+
+#img-segitiga {
+    padding-top: 50px;
+}
+
+#intro-luas {
+    padding: 30px 5%;
+    width: 100%;
+}
+
+#intro-luas code {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid brown;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
 
