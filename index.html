@@ -1,14 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulator Matematik Segitiga</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    
 
+<body>
+    <header>
+        <h2>Welcome to Katik</h2>
+        <p>Hai Sobat, Selamat datang di Katik :)<br>
+            Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+        <section id="segitiga-sect">
+            <p>Segitiga</p>
+        </section>
+        <section id="jajar-genjang-sect">
+            <p>Jajar Genjang</p>
+        </section>
+    </header>
+    <main>
+        <article id="segitiga">
+            <section id="luas-segitiga">
+                <header>
+                    <h1>Luas Segitiga</h1>
+                </header>
+                <img src="img/segitigaHitung.png">
+                <p>Rumus Luas Segitiga yaitu : </p>
+                <code>L = 1/2 x a x t</code>
+                <p>Dimana :</p>
+                <ul>
+                    <li>L = Luas</li>
+                    <li>a = alas</li>
+                    <li>t = tinggi</li>
+                </ul>
+                <form id="form-segitigaLuas">
+                    <h2>Hitung Luas Segitiga</h2>
+                    <div class="form-group">
+                        <label for="alas-segitiga">Alas</label>
+                        <input type="number" id="alas-segitiga" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="tinggi-segitiga">Tinggi</label>
+                        <input type="number" id="tinggi-segitiga" required>
+                    </div>
+                    <div class="form-group">
+                        <p></p>
+                    </div>
+                    <button type="submit">Hitung</button>
+                    <button type="reset">Reset</button>
+                </form>
+                <p id="hasil-segitigaLuas"></p>
+            </section>
+            <section id="keliling-segitiga">
+                <header>
+                    <h1>Keliling Segitiga</h1>
+                </header>
+                <img src="img/segitigaHitung.png">
+                <p>Rumus Luas Segitiga yaitu : </p>
+                <code>K = S1 + S2 + S3</code>
+                <p>Dimana :</p>
+                <ul>
+                    <li>K = Keliling</li>
+                    <li>S1 = Sisi A</li>
+                    <li>S2 = Sisi B</li>
+                    <li>S3 = Sisi C</li>
+                </ul>
+                <form id="form-segitigaKeliling">
+                    <h2>Hitung Keliling Segitiga</h2>
+                    <div class="form-group">
+                        <label for="sisi-segitiga1">Sisi A</label>
+                        <input type="number" id="sisi-segitiga1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="sisi-segitiga2">Sisi B</label>
+                        <input type="number" id="sisi-segitiga2" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="sisi-segitiga3">Sisi C</label>
+                        <input type="number" id="sisi-segitiga3" required>
+                    </div>
+                    <div class="form-group">
+                        <p></p>
+                    </div>
+                    <button type="submit">Hitung</button>
+                    <button type="reset">Reset</button>
+                </form>
+                <p id="hasil-segitigaKeliling"></p>
+            </section>
+        </article>
+    </main>
     <script src="js/script.js"></script>
 </body>
+
 </html>
