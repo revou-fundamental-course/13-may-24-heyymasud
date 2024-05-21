@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: antiquewhite;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    text-align: center;
+}
+
+#head-kalkulator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+a#segitiga-sect {
+    display: inline-block;
+    background-color: brown;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80vw;
+}
+a#jajar-genjang-sect {
+    display: inline-block;
+    background-color: none;
+    color: brown;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80vw;
+}
+
+#segitiga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    width: 80vw;
+    background-color: #ffffff; 
+    border-radius: 10px;
+}
+
+#luas-segitiga, .section-segitiga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#luas-segitiga header, .section-segitiga header {
+    background-color: brown;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    padding: 30px;
+    color: #ffffff;
+}
+
+.img-segitiga {
+    padding-top: 50px;
+}
+
+#intro-luas, .intro {
+    padding: 30px 5%;
+    width: 100%;
+}
+
+.intro code {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid brown;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.form-segitigaHitung {
+    text-align: left;
+    width: 90%;
+    border: 1px solid brown;
+    border-radius: 20px;
+    padding: 3%;
+    margin-bottom: 50px;
+}
+
+.form-segitigaHitung h2 {
+    text-align: center;
+}
+
+.form-segitigaHitung .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid brown;
+    margin: 10px 0;
+    background-color: #f5e7e7;
+    font-size: 1.1rem;
+}
+.form-segitigaHitung .form-group input:hover {
+    background-color: rgba(165, 42, 42, 0.184);
+}
+.form-segitigaHitung .form-group input:hover {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button[type="submit"] {
+    background-color: brown;
+    color: white;
+    padding: 15px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+button[type="reset"] {
+    background-color: #f5deb3;
+    color: white;
+    padding: 15px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: black;
+}
+button[type="submit"]:hover {
+    background-color: rgb(145, 37, 37);
+    border: 2px solid black;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button[type="reset"]:hover {
+    background-color: #dcbf8b;
+    border: 2px solid black;
+    transition: background-color 0.3s ease-in-out;
+}
+
+pre {
+    margin: 20px 0;
+}
