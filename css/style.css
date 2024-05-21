@@ -172,3 +172,7 @@ button[type="reset"]:hover {
     border: 2px solid black;
     transition: background-color 0.3s ease-in-out;
 }
+
+pre {
+    margin: 20px 0;
+}
