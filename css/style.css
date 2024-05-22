@@ -35,7 +35,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding-top: 50px;
+    padding: 50px 5vw 0 5vw;
     background-color: #ffffff;
     width: 80vw;
     border-radius: 10px;
@@ -186,6 +186,21 @@ pre {
 @media only screen and (max-width: 600px) {
     body {
         font-size: 1rem;
+    }
+
+    #head-kalkulator {
+        width: 100vw;
+    }
+
+    a#segitiga-nav {
+        width: 100vw;
+    }
+    a#jajar-genjang-nav {
+        width: 100vw;
+    }
+
+    #segitiga {
+        width: 100vw;
     }
 }
 
