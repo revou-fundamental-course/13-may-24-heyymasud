@@ -36,23 +36,28 @@ header {
     align-items: center;
     gap: 20px;
     padding-top: 50px;
+    background-color: #ffffff;
+    width: 80vw;
+    border-radius: 10px;
+    box-shadow: #00000079 0px 5px 15px;
 }
 
-a#segitiga-sect {
+a#segitiga-nav {
     display: inline-block;
     background-color: brown;
     color: white;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     width: 80vw;
 }
-a#jajar-genjang-sect {
+a#jajar-genjang-nav {
     display: inline-block;
     background-color: none;
     color: brown;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
     width: 80vw;
+    border: 1px solid brown;
 }
 
 #segitiga {
@@ -63,6 +68,7 @@ a#jajar-genjang-sect {
     width: 80vw;
     background-color: #ffffff; 
     border-radius: 10px;
+    box-shadow: #00000079 0px 5px 15px;
 }
 
 #luas-segitiga, .section-segitiga {
@@ -176,3 +182,10 @@ button[type="reset"]:hover {
 pre {
     margin: 20px 0;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 1rem;
+    }
+}
+
