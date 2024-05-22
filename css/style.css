@@ -63,6 +63,7 @@ a#jajar-genjang-sect {
     width: 80vw;
     background-color: #ffffff; 
     border-radius: 10px;
+    box-shadow: #00000079 0px 5px 15px;
 }
 
 #luas-segitiga, .section-segitiga {
